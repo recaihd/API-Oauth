@@ -19,7 +19,7 @@ app.get("/discord/callback", async (req, res) => {
       client_secret: process.env.CLIENT_SECRET,
       grant_type: "authorization_code",
       code,
-      redirect_uri: "https://api-oauth-0k02.onrender.com",
+      redirect_uri: "https://api.recai.shop/discord/callback",
     });
 
     const tokenResponse = await axios.post(
