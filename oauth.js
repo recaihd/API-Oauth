@@ -44,4 +44,4 @@ app.get("/discord/callback", async (req, res) => {
 });
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`🟢 API OAuth rodando na porta ${PORT}`));
+app.listen(PORT, () => console.log(`API OAuth rodando na porta ${PORT}`));
